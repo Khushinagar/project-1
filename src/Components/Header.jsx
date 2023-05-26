@@ -12,10 +12,10 @@ function Header(){
             <main>
             <HashLink to={"/#Home"}>Home</HashLink>
             <HashLink to={"/#Story"}>Stories</HashLink>
-            <HashLink to={"/#About"}>About US</HashLink>
+            <HashLink to={"/#About"}>About</HashLink>
             <HashLink to={"/#Destination"}>Destination</HashLink>
             <Link to={"/Services"}>Services</Link>
-            <Link to={"/Contact"}>Contact US</Link>
+            <Link to={"/Contact"}>Contact </Link>
             
             </main>
         </nav>
