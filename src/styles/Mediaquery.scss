@@ -1,21 +1,21 @@
-// @media screen and  (max-width: 820px) { 
-//     .home3{
-//         height: 130vh;
-//         >div{
-//             height: 130vh;
-//         }
-//     }
+@media screen and  (max-width: 820px) { 
+    .home3{
+        height: 130vh;
+        >div{
+            height: 130vh;
+        }
+    }
 
-//     .contact > main {
-//         height: 100vh;
-//         width: 100%;
-//         border-radius: 0%;
-//         h1{
-//             text-align: center;
-//         }
+    .contact > main {
+        height: 100vh;
+        width: 100%;
+        border-radius: 0%;
+        h1{
+            text-align: center;
+        }
 
-//     }
-// }
+    }
+}
 
 
 @media screen and  (max-width: 768px) {
@@ -156,6 +156,7 @@
             padding: 1rem;
     
             >h1{
+                margin-top: 2rem;
                 text-transform: uppercase;
                 border-bottom: 1px solid gray;
                 padding-bottom: .5rem;
@@ -257,12 +258,12 @@
         }
 
         >main{
-            width: 30%;
+            width: 50%;
         display: flex;
         justify-content: flex-end;
         a{
             width: 15%;
-            margin-right: .6rem;
+            margin-right: .4rem;
             text-decoration: none;
             text-transform: capitalize;
             font-size: 1rem;
