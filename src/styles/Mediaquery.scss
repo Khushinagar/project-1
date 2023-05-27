@@ -18,7 +18,7 @@
 }
 
 
-@media screen and  (max-width: 500px) {
+@media screen and  (max-width: 1080px-2340) {
     .home{
         width: auto;
         height: 100vh;
@@ -100,7 +100,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -1100px;
+        margin-top: -900px;
     
         
         > img{
@@ -141,7 +141,7 @@
         width: auto;
         height: 120vh;
         // background-color: $second;
-        margin-top: -400px;
+        margin-top: -300px;
         display: flex;
         >div{
     
@@ -153,12 +153,12 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 2rem;
+            padding: 1rem;
     
             >h1{
                 text-transform: uppercase;
                 border-bottom: 1px solid gray;
-                padding-bottom: 1rem;
+                padding-bottom: .5rem;
                 // margin-bottom: 1px;
                 // width: 10rem;
                 // color: $dark;
@@ -261,7 +261,7 @@
         display: flex;
         justify-content: flex-end;
         a{
-           
+            width: 15%;
             margin-right: .6rem;
             text-decoration: none;
             text-transform: capitalize;
