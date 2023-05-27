@@ -2,17 +2,43 @@ import React from "react";
 import '../styles/home.scss'
 import img from '../assets/4.jpg'
 import {AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
+import homeimg1 from '../assets/8.jpg'
+import homeimg2 from '../assets/8.jpg'
+import { Carousel } from "react-responsive-carousel";
+
 
 function Home(){
 
     return(
         <>
         <div className="home" id="Home">
-            <main>
-                <h1>The Trip</h1>
-                <p>Go With The Flow.</p>
-            </main>
+            <div>
+                <main>
+                    <h1>The Trip</h1>
+                    <p>Go With The Flow.</p>
+                </main>
+                <div className="image" id="img">  
+                    <Carousel
+                    infiniteLoop 
+                    autoPlay
+                    showArrows = {false}
+                    showThumbs ={false}
+                    showStatus = {false}
+                    >
+                    <div>
+                        <img src={homeimg1} alt="item1" />
+                        <p className='legend'>..</p>
+                       </div>
+                       <div>
+                        <img src={homeimg2} alt="item2" />
+                        <p className='legend'>..</p>
+                       </div>
+
+                    </Carousel>    
+                </div>
+            </div>
         </div>
+
         <div className="home2" id="Story">
             <img src={img} alt="graphics" />
         <div>

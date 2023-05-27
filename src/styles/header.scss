@@ -1,12 +1,12 @@
 @import 'colors';
  nav{
     width: auto;
-    padding: 1rem;
+    padding: .5rem;
     display: flex;
     justify-content: space-between;
     align-items: center ;
     position: sticky;
-    background-color: $first;
+    // background-color: $first;
     box-shadow: 0 0 10px;
     top: 0%;
     z-index: 10;
